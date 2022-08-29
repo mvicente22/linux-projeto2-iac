@@ -4,11 +4,11 @@ echo "Script para subir servidor web"
 
 echo "Atualizar pacotes do sistema..."
 
-apt update -y && apt upgrade -y
+apt-get update -y && apt upgrade -y
 
 echo "Instalar apache e unzip..."
 
-apt install apache2 unzip -y
+apt-get install apache2 unzip -y
 
 echo "Baixando arquivos GitHub..."
 
